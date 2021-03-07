@@ -249,7 +249,7 @@ EFI_STATUS EFIAPI UefiMain(EFI_HANDLE imageHandle,
         gST->ConOut->SetAttribute(gST->ConOut, EFI_WHITE | EFI_BACKGROUND_BLACK);
 
 
-        Print(L"ekknod.xyz - Secure, Strong, Legit\n");
+        Print(L"[+] SMAP loaded\n");
         winload.ProtectedModeError = L"failed to inject";
 
         MAPPER_BUFFER = load_mapped_image();
@@ -735,8 +735,7 @@ EFI_STATUS EFIAPI ExitBootServicesHook(EFI_HANDLE imageHandle, UINTN mapKey) {
         gST->ConOut->ClearScreen(gST->ConOut);
         gST->ConOut->SetAttribute(gST->ConOut, EFI_WHITE | EFI_BACKGROUND_BLACK);
 
-        Print(L"ekknod.xyz - Secure cheating made easy\n");
-        Print(L"status: %s\n", winload.ProtectedModeError);
+        Print(L"smap status: %s\n", winload.ProtectedModeError);
         for (int i = MAPPER_BUFFER_SIZE; i--;)
                 ((unsigned char*)MAPPER_BUFFER)[i]=0;
         FreePool(MAPPER_BUFFER);
