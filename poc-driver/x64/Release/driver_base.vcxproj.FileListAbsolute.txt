@@ -1,4 +1,0 @@
-C:\Users\Juho\source\repos\ekknod_xyz\fw_patch\x64\Release\fw_patch.sys
-C:\Users\Juho\source\repos\ekknod_xyz\ec_pro\invite\efi_boot_loader\boot – experimental test\fw_patch\x64\Release\fw_patch.sys
-C:\Users\Juho\source\repos\ekknod_xyz\ec_pro\invite\efi_boot_loader\fw-patch-efi\fw_patch\x64\Release\fw_patch.sys
-C:\Users\Juho\source\repos\ekknod_xyz\ec_pro\invite\efi_boot_loader\boot – experimental test\poc-driver\x64\Release\driver_base.sys

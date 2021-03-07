@@ -1,8 +1,0 @@
-﻿  Building 'driver_base' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
-  crc32.c
-  main.c
-  Generating Code...
-     Creating library C:\Users\Juho\source\repos\ekknod_xyz\ec_pro\invite\efi_boot_loader\boot – experimental test\poc-driver\x64\Release\driver_base.lib and object C:\Users\Juho\source\repos\ekknod_xyz\ec_pro\invite\efi_boot_loader\boot – experimental test\poc-driver\x64\Release\driver_base.exp
-  driver_base.vcxproj -> C:\Users\Juho\source\repos\ekknod_xyz\ec_pro\invite\efi_boot_loader\boot – experimental test\poc-driver\x64\Release\driver_base.sys
-  Inf2Cat task was skipped as there were no inf files to process
-  
