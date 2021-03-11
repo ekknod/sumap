@@ -1,5 +1,8 @@
-# smap
+# sumap
 manually map driver for a signed driver memory space  
+
+# precompiled binaries  
+https://www.unknowncheats.me/forum/downloads.php?do=file&id=32686
 
 # credits
 https://github.com/btbd/umap  
